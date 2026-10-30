@@ -1,54 +1,40 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>放假通知安排</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: system-ui, -apple-system, sans-serif;
-        }
-        body {
-            background-color: #f6f8fb;
-            padding: 40px 20px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        h1 {
-            text-align: center;
-            color: #1f2937;
-            margin-bottom: 40px;
-            font-size: 42px;
-        }
-        .btn-item {
-            display: block;
-            text-decoration: none;
-            background-color: #2563eb;
-            color: #ffffff;
-            text-align: center;
-            padding: 28px 20px;
-            border-radius: 18px;
-            font-size: 26px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            transition: 0.2s ease;
-        }
-        .btn-item:hover {
-            background-color: #1d4ed8;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英仓假期安排公告</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:system-ui,Microsoft YaHei,sans-serif;}
+
+body{background:#f5f7fa;padding:40px 20px;max-width:620px;margin:0 auto;}
+h1{text-align:center;color:#1e293b;margin-bottom:32px;font-size:26px;font-weight:600;}
+
+.item {
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    padding:16px 24px;
+    margin:14px 0;
+    background:#2563eb;
+    color:#fff;
+    border-radius:10px;
+    font-size:17px;
+    transition:0.25s;
+    cursor:pointer;
+    box-shadow:0 2px 6px #00000018;
+}
+.item:hover {
+    background:#1d4ed8;
+    transform:translateY(-2px);
+    box-shadow:0 4px 10px #00000022;
+}
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>放假通知安排</h1>
-        <!-- href 改成你排班公告页面的 github pages 链接 -->
-        <a class="btn-item" href="./schedule.html">
-            📋 2026圣诞—2027新年 假期收货与值班安排公告
-        </a>
-    </div>
+    <h1>放假通知安排</h1>
+    <a class="item" href="./schedule.html">
+        2026圣诞—2027新年 假期收货与值班安排公告
+    </a>
 </body>
 </html>
