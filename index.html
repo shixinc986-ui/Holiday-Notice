@@ -2,37 +2,53 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <!-- 适配手机、电脑，防止图片超出屏幕 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2026圣诞—2027新年 假期收货与值班安排公告</title>
+    <title>放假通知安排</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: system-ui, -apple-system, sans-serif;
         }
         body {
-            background-color: #ffffff;
-            padding: 16px;
+            background-color: #f6f8fb;
+            padding: 40px 20px;
         }
-        .wrap {
-            max-width: 1400px;
+        .container {
+            max-width: 900px;
             margin: 0 auto;
         }
-        img {
-            max-width: 600px;
-            width: 100%;
-            height: auto;
+        h1 {
+            text-align: center;
+            color: #1f2937;
+            margin-bottom: 40px;
+            font-size: 42px;
+        }
+        .btn-item {
             display: block;
-            border: none;
-            margin: 0 auto;
+            text-decoration: none;
+            background-color: #2563eb;
+            color: #ffffff;
+            text-align: center;
+            padding: 28px 20px;
+            border-radius: 18px;
+            font-size: 26px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: 0.2s ease;
+        }
+        .btn-item:hover {
+            background-color: #1d4ed8;
         }
     </style>
 </head>
 <body>
-    <div class="wrap">
-        <!-- 图片和index.html同级，直接写 schedule.png -->
-        <img src="./schedule.png" alt="2026圣诞—2027新年 仓库值班及物流收货排班公告">
+    <div class="container">
+        <h1>放假通知安排</h1>
+        <!-- href 改成你排班公告页面的 github pages 链接 -->
+        <a class="btn-item" href="./schedule.html">
+            📋 2026圣诞—2027新年 假期收货与值班安排公告
+        </a>
     </div>
 </body>
 </html>
